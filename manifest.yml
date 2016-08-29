@@ -1,0 +1,16 @@
+---
+declared-services:
+  conversation-Bennit-service:
+    label: conversation
+    plan: free
+applications:
+- name: Bennitweb
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  disk_quota: 1024M
+  services:
+  - conversation-Bennit-service
+  env:
+    NPM_CONFIG_PRODUCTION: false
