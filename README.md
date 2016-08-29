@@ -16,4 +16,4 @@ to test goto: http://bennitweb.mybluemix.net/
 ## To deploy to IMB watson
 1. install cloudfoundry CLI tool
 2. login to a bluemix account: $ cf api https://api.ng.bluemix.net $ cf login (follow prompts)
-3. cf push <appName>
+3. cf push <- appName ->
