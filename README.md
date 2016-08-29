@@ -2,6 +2,8 @@
 
 This is essentially the car dashboard example that has been striped down.
 
+to test goto: http://bennitweb.mybluemix.net/
+
 ## To build locally:
 1. clone this repo using git
 2. go to the project folder and run npm install
